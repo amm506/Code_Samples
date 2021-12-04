@@ -1,16 +1,13 @@
 #include <Wire.h> // Library for I2C communication
 #include <LiquidCrystal_I2C.h> // Library for LCD
 
-/**********************************
+/********************************************************************************************************************
  * To give some context, this file was for a Jr. Design project that was completed Dec 2020. The goal of this project
- * was to make a game that was similar to a Bop-It. I was solely responsible for the software design of this project,
- * so I though this would be a good code sample. The game was a music theme, and the inputs for it were a button (Drum),
- * a sliding potentiometer (Trombone) and a joystick(Guitar). This project used an I2C screen to display the score at the
- * end of the game and it also displayed the expected input. In addition, there was a buzzer that made a sound that
- * coincided with desired input.
- * 
- * I am going to add some comments for clarity.
- * *******************************/
+ * was to make a game that was similar to a Bop-It. I was solely responsible for the software design of this project. 
+ * The game had a music theme, and the inputs for it were a button (Drum), a sliding potentiometer (Trombone) and 
+ * a joystick(Guitar). This project used an I2C screen to display the score at the end of the game and it also 
+ * displayed the expected input. In addition, there was a buzzer that made a sound that coincided with desired input.
+ * *****************************************************************************************************************/
  
  //Assigning to pins on the Arduino
  const int PotWiper = PC0;
